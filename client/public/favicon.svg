@@ -1,0 +1,50 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head outline -->
+  <path d="M6 8 
+           Q6 5 9 5 
+           L19 5 
+           Q22 5 24 7 
+           Q26 9 26 12 
+           L26 15 
+           Q26 18 24 20 
+           L24 21 
+           Q24 24 22 26 
+           L20 26 
+           L20 27 
+           L19 27 
+           L19 29 
+           L13 29 
+           L13 27 
+           L12 27 
+           L12 26 
+           L10 26 
+           Q8 24 8 21 
+           L8 20 
+           Q6 18 6 15 
+           L6 8 
+           Z" 
+        stroke="#3B44F6" 
+        stroke-width="2" 
+        fill="none"/>
+  
+  <!-- Gear icon inside head -->
+  <g transform="translate(12, 12)">
+    <!-- Gear teeth -->
+    <g fill="#3B44F6">
+      <rect x="3" y="0" width="2" height="3" rx="0.5"/>
+      <rect x="6" y="1" width="3" height="2" rx="0.5" transform="rotate(45 7.5 2)"/>
+      <rect x="8" y="4" width="2" height="3" rx="0.5"/>
+      <rect x="6" y="7" width="3" height="2" rx="0.5" transform="rotate(-45 7.5 8)"/>
+      <rect x="3" y="8" width="2" height="3" rx="0.5"/>
+      <rect x="0" y="7" width="3" height="2" rx="0.5" transform="rotate(45 1.5 8)"/>
+      <rect x="-2" y="4" width="2" height="3" rx="0.5"/>
+      <rect x="0" y="1" width="3" height="2" rx="0.5" transform="rotate(-45 1.5 2)"/>
+    </g>
+    
+    <!-- Main gear circle -->
+    <circle cx="4" cy="5.5" r="2.5" fill="#3B44F6"/>
+    
+    <!-- Center hole -->
+    <circle cx="4" cy="5.5" r="0.8" fill="white"/>
+  </g>
+</svg>
